@@ -27,24 +27,23 @@
   display: flex;
   justify-content: center;
 }
+.keobuabao button {
+  outline: none;
+  cursor: pointer;
+
+  border-radius: 5px;
+}
 .keobuabao__img {
   background-color: white;
   width: 25%;
   height: 50px;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .keobuabao__img img {
   width: 70%;
 }
-button {
-  border-radius: 5px;
-}
-.keobuabao button:focus {
-  border: 5px solid orange;
-  outline: none;
-}
+
 @font-face {
   font-family: "fontGame";
   src: url("../font/Pony.ttf");
